@@ -2,6 +2,13 @@ docker build -t lumidora-tts .
 
 docker run -p 8080:8080 lumidora-tts
 
+# Push to dockerhub
+docker login
+docker tag my-image:latest domoskanonos/lumidora-tts
+docker push domoskanonos/lumidora-tts
+
+
+
 
 Example Post Call:
 
