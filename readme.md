@@ -1,6 +1,6 @@
 docker build -t lumidora-tts .
 
-docker run -p 8080:8080 lumidora-tts
+docker run -d -p 8080:8080 lumidora-tts
 
 # Push to dockerhub
 docker login
