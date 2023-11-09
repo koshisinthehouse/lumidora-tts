@@ -1,2 +1,0 @@
-# lumidora-tts
-lumidora-chatbot
