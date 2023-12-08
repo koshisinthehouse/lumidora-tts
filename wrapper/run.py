@@ -1,5 +1,5 @@
 from pydub import AudioSegment
-
+import os
 # Erstelle den Ordner, falls er nicht existiert
 # Pfad zum Ordner, in dem sich die WAV-Dateien befinden
 wav_folder_path = "wav"  # Ersetze dies mit dem tatsächlichen Pfad
