@@ -63,6 +63,15 @@ def combine_wav_files(file_list, output_filename):
     combined.export(output_filename, format="wav")
 
 
+# Funktion zum Löschen aller Dateien in einem Verzeichnis, außer einer spezifizierten Datei
+def delete_files_except(wav_folder_path, except_file):
+    for f in os.listdir(wav_folder_path):
+        file_path = os.path.join(wav_folder_path, f)
+        if os.path.isfile(file_path) and f != except_file:
+            os.remove(file_path)
+            print(f"Datei {f} gelöscht.")
+
+
 # Liste alle WAV-Dateien im Ordner auf
 wav_files = [os.path.join(wav_folder_path, f) for f in os.listdir(wav_folder_path) if f.endswith('.wav')]
 
@@ -72,7 +81,8 @@ combine_wav_files(wav_files, "combined_output.wav")
 # Rückmeldung, dass der Vorgang abgeschlossen ist
 print("Alle WAV-Dateien wurden zu 'combined_output.wav' zusammengefügt.")
 
-
+# Lösche alle Dateien im wav-Ordner, außer 'combined_output.wav'
+delete_files_except(wav_folder_path, "combined_output.wav")
 
 # Lade die WAV-Datei
 wav_audio = AudioSegment.from_file("./combined_output.wav", format="wav")
