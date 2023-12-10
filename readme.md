@@ -1,6 +1,6 @@
-docker build -t lumidora-tts .
+docker build --no-cache -t lumidora-tts .
 
-docker run -d -p 8080:8080 -v lumidora-tts:/go/src/app/models lumidora-tts
+docker run -d -p 7862:8080 -v lumidora-tts:/go/src/app/models lumidora-tts
 
 # Push to dockerhub
 docker login
