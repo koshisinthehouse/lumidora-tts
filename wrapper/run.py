@@ -72,11 +72,22 @@ def delete_files_except(wav_folder_path, except_file):
             print(f"Datei {f} gelöscht.")
 
 
-# Liste alle WAV-Dateien im Ordner auf
+def get_sentence_number(filename):
+    """ Extrahiert die Satznummer aus dem Dateinamen. """
+    parts = filename.split('_')
+    if len(parts) > 1:
+        number_part = parts[-1]
+        number = number_part.split('.')[0]
+        if number.isdigit():
+            return int(number)
+    return 0
+
+# Liste alle WAV-Dateien im Ordner auf und sortiere sie nach der Satznummer
 wav_files = [os.path.join(wav_folder_path, f) for f in os.listdir(wav_folder_path) if f.endswith('.wav')]
+wav_files.sort(key=get_sentence_number)
 
 # Dateien zusammenfügen
-combine_wav_files(wav_files, "combined_output.wav")
+combine_wav_files(wav_files, "./combined_output.wav")
 
 # Rückmeldung, dass der Vorgang abgeschlossen ist
 print("Alle WAV-Dateien wurden zu 'combined_output.wav' zusammengefügt.")
