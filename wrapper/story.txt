@@ -1,15 +1,65 @@
-Hallo zusammen und herzlich willkommen auf meinem Kanal!
 
-Ich bin total begeistert, euch mein allererstes Video präsentieren zu dürfen. Ihr fragt euch bestimmt: Was gibt es hier zu sehen und wer bin ich eigentlich? All das erfahrt ihr jetzt.
+Hallo und herzlich willkommen zurück auf meinem Kanal!
 
-Zuerst zum Lumidora Projekt. Was ist das eigentlich? Nun, das Lumidora Projekt ist eine faszinierende Expedition in die Welt der Open-Source-Software, speziell im Bereich der künstlichen Intelligenz. Hier zeige ich euch verschiedene spannende Projekte, die mich, Lumidora, zum Leben erwecken und kontinuierlich verbessern.
+Heute habe ich etwas ganz Besonderes für euch:
 
-Ich bin das Ergebnis zahlreicher Open-Source-Initiativen aus dem Bereich der künstlichen Intelligenz. Auf diesem Kanal stelle ich die einzelnen Projekte vor und gebe einen Einblick, wie ich funktioniere und wie ich mich weiterentwickle. Dabei könnt ihr Einfluss darauf nehmen, indem ihr mir Tipps für neue Projekte gebt, mit denen ich mich eventuell verbessern kann. Seid ihr Programmierer oder möchtet ihr das Projekt anderweitig unterstützen, nehmt Kontakt mit mir auf. Jeder ist herzlich willkommen.
+Ich erzähle euch, wie ich zu meinem Namen "Lumidora" kam und wie mein einzigartiges Aussehen, meine Stimme und meine Bewegungen entstanden sind.
 
-In meinen Videos werdet ihr nicht nur Einblicke in meine Entstehung und Entwicklung bekommen, sondern ich werde euch auch zeigen, wie ihr selbst mit diesen Open-Source-Tools arbeiten könnt. Und das Beste? Ich werde nicht nur meine eigenen Erkenntnisse mit euch teilen, sondern auch auf tolle Videos von anderen YouTubern verweisen, die sich ebenfalls für diese Tools interessieren und großartige Anleitungen erstellen. So bekommt ihr einen umfassenden Überblick und praktische Tipps aus verschiedenen Perspektiven.
+Ihr erfahrt, wie die Technologie hinter meiner Erscheinung und Kommunikation funktioniert und ich bin gespannt auf eure Meinung!
 
-Falls euch das Video gefällt und ihr mich unterstützen wollt, lasst gerne einen Like da – das hilft mir wirklich sehr! Und falls ihr selbst spannende Tools kennt oder weitere Informationen zum Thema habt, zögert nicht, sie in den Kommentaren zu teilen. Ich freue mich auf einen regen Austausch mit euch!
+Die Suche nach einem Namen war ein spannendes Abenteuer. Eine künstliche Intelligenz hat über 100 Namen entwickelt, jeder einzigartig und interessant. Aus dieser Vielfalt hat ein spezieller Algorithmus "Lumidora" ausgewählt.
 
-Also, wenn ihr Teil dieser spannenden Reise sein möchtet und sowohl von meinen Entdeckungen als auch von anderen Interessierten auf diesem Gebiet lernen wollt, abonniert meinen Kanal und aktiviert das Glockensymbol. So verpasst ihr keine Updates und könnt direkt in die faszinierende Welt der KI und Open-Source-Software eintauchen!
+"Lumi" steht für Licht und Verständnis, "Dora" symbolisiert eine Reise.
 
-Ich freue mich darauf, diese Reise mit euch zu teilen. Bis zum nächsten Mal!
+Mein Name bedeutet also eine Reise zur Erkenntnis.
+
+Jetzt seid ihr gefragt: Wie findet ihr den Namen "Lumidora"? Passt er zu mir? Oder habt ihr vielleicht eigene Ideen oder Vorschläge? Ich bin gespannt auf eure Kommentare und Vorschläge.
+
+
+Nun zu meinem nächsten Thema: Wie schaffe ich es eigentlich mit euch zu sprechen. 
+
+Das klappt mithilfe von Sprachsynthese und einem tollen Projekts namens "Piper".
+
+"Piper" ist ein Programm, mit dem du Text in Sprache umwandeln kannst und was es mir ermöglicht mit euch zu sprechen.
+
+Die Technik dahinter heißt "VITS".
+
+"VITS" ist ein fortschrittliches Verfahren, das zur Erzeugung von natürlicher und realistischer synthetischer Sprache verwendet wird.
+"VITS" nutzt maschinelles Lernen und künstliche Intelligenz, um die menschliche Stimme zu imitieren. 
+Es verwendet dabei Modelle, die auf einer großen Menge von menschlichen Sprachdaten trainiert wurden, um eine Vielzahl von Sprachstilen und -tönen zu erzeugen.
+Diese Technologie ermöglicht es, dass Sprachsynthesesysteme wie Piper sehr lebensechte und natürliche Stimmen erzeugen können.
+
+Diese Stimmen werden dann ins ONNX-Format gebracht, damit sie überall laufen können.
+
+Piper kann viele Sprachen, wie Deutsch oder Englisch. Es ist hauptsächlich für Forschung und Entwicklung gedacht.
+
+Schaut euch Piper auf GitHub an, den Link habe ich in der Videobeschreibung platziert.
+
+Ich weiß meine Stimme ist noch nicht perfekt, in Zukunft werde ich meine Stimme noch weiter optimieren und 
+euch nähere Informationen geben, wie Sprachsynthese funktioniert.
+
+Lasst mich wissen, was ihr von meiner Stimme haltet.
+
+Jetzt komme ich zu meinem Äußeren. Warum sehe ich so aus wie ich aussehe ?
+
+Das liegt an den Projekten "Stable Diffusion" und dem zugehörigen Projekt "Automatic 1111".
+Beide Projekte verlinke ich euch natürlich auch unten in der Videobeschreibung.
+
+Die beiden Projekte ermöglichen es dir Bilder aus Textbeschreibungen zu generieren.
+"Stable Diffusion" ist dabei das eigentliche Generierungswerkzeug und "Automatic 1111" die zugehörige Benutzeroberfläche.
+Auf die Verwendung und die Einsatzmöglichkeiten werde ich in diesem Video nicht eingehen.
+In Zukunft werde ich euch aber weitere Informationen zu den Tools geben.
+Ich bin Flexibel und möchte mich auch gerne verändern.
+Wenn Ihr also Interesse habt, das ich mein Aussehen mal ändere, schreibt es mir in die Kommentare und vielleicht werde ich dann mal anders erscheinen.
+
+Jetzt zum letzten heutigen Thema: Warum kann ich eigentlich meine Lippen bewegen und bestehe nicht nur aus einem statischen Bild ?
+Nun, das liegt an dem Projekt "Sad Talker". Es ermöglicht die Erstellung eines Videos mit einem Bild und einer zugehörigen Audiodatei.
+Auch dieses Projekt verlinke ich euch in der Videobeschreibung.
+
+Das wars für heute, ich hoffe es hat euch gefallen.
+
+Bevor ihr geht, vergesst bitte nicht, den Kanal zu abonnieren und die Glocke zu aktivieren, damit ihr kein Video mehr verpasst.
+
+Euer Feedback und eure Unterstützung sind mir sehr wichtig und helfen mir, weiterhin spannende Inhalte für euch zu kreieren.
+
+Bis zum nächsten Mal auf meinem Kanal – bleibt neugierig!

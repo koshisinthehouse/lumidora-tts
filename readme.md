@@ -1,11 +1,7 @@
 docker build --no-cache -t lumidora-tts .
 
-docker run -d -p 7862:8080 -v lumidora-tts:/go/src/app/models lumidora-tts
+docker run -d -p 7862:8080 lumidora-tts
 
-# Push to dockerhub
-docker login
-docker tag my-image:latest domoskanonos/lumidora-tts
-docker push domoskanonos/lumidora-tts
 
 
 
