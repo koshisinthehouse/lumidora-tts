@@ -1,17 +1,61 @@
-docker build --no-cache -t lumidora-tts .
-
-docker run -d -p 7862:8080 lumidora-tts
+docker run --rm -v "voicedock-config:/data/config" -v "voicedock-dataset:/data/dataset" -p 9999:9999 ghcr.io/voicedock/ttspiper:latest ttspiper
 
 
+# init
+virtualenv venv/
+.\venv\Scripts\activate
+python.exe -m pip install --upgrade pip
+pip install -r requirements.txt
+
+
+python.exe -m pip install --upgrade pip
 
 
 
-Example Post Call:
 
 
-http://localhost:8080/api/tts
+docker build -t lumidora-tts-wrapper .
 
-{
-"text": "In einem verschlafenen Dorf, umgeben von majestätischen Bergen, flüsterte eine uralte Eiche Geschichten des Lebens. Ihr mächtiger Stamm trug die Narben der Zeit. Jeden Tag versammelten sich Dorfbewohner um sie und lauschten ihren Erzählungen über vergangene Helden und Abenteuer. Doch an einem nebligen Morgen stand ein Fremder unter der Eiche. Er sprach von fernen Ländern und aufregenden Entdeckungen. Das Dorf wurde lebendig von seinen Worten und verließ die vertraute Routine. Die Eiche schwieg, ihre Geschichten wurden von neuen ersetzt. So entdeckte das Dorf, dass Geschichten nicht nur in den Wurzeln der Vergangenheit, sondern auch in den Ästen der Zukunft schlummerten.",
-"voice": "domoskanonos.onnx"
-}
+
+
+# useful python commands
+## poetry
+
+### install poetry
+    pip install poetry
+
+### Poetry Konfiguration anzeigen
+    poetry config --list
+
+### Projet initialisieren
+    poetry init
+
+### Virtuelle Umgebung erstellen
+    # System Python Version verwenden
+    poetry shell
+    # Mit spezieller python version
+    poetry env use D:/_dev/extract/python/python.exe
+
+### Info über die Virtuelle Umgebung
+    poetry env info
+
+### Poetry Projekt initial installieren
+     poetry install
+
+### Dependency hinzufügen
+    poetry add [package]
+
+### Dev Dependency
+    poetry add [package] --group dev
+
+### requrements.txt erzeugen
+    poetry export -f requirements.txt --output requirements.txt
+
+## chatbot starten
+    poetry run cmd
+
+## unicorn starten
+    poetry run uvicorn src.chatbot.fastapi:app --reload
+
+
+
